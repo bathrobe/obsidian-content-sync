@@ -140,7 +140,7 @@ class ContentSyncSettingTab extends PluginSettingTab {
 			)
 			.addText((text) =>
 				text
-					.setPlaceholder("Path here")
+					.setPlaceholder("Put your path here")
 					.setValue(this.plugin.settings.pathToContentFolder)
 					.onChange(async (value) => {
 						this.plugin.settings.pathToContentFolder = value;
